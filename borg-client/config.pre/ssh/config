@@ -1,0 +1,6 @@
+Host backup
+	HostName $ssh_hostname
+	USER $ssh_user
+	Port $ssh_port
+	IdentityFile /borg/config/ssh/key
+	$ssh_proxy_jump_full
